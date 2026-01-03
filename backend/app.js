@@ -6,7 +6,11 @@ const taskRoutes=require("./routes/taskRoutes")
 const log = require("./utils/logger");
 const app=express();
 require("dotenv").config()
-app.use(cors());
+app.use(cors({
+    origin: `${process.env.FRONTEND_URL} || http://localhost:5173`,
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json());
 
 // db
