@@ -132,17 +132,28 @@ All APIs tested using Postman
 JWT token passed via Authorization: Bearer <token>
 
 
-<!-- Sample log -->
+
+
+LOG SAMPLE:
 
 [2026-01-03T12:07:06.830Z] Server started successfully
+
 [2026-01-03T12:07:40.268Z] User registered: xyz@gmail.com
+
 [2026-01-03T12:07:57.509Z] User logged in: xyz@gmail.com
+
 [2026-01-03T12:08:19.890Z] Task created by user 6959068ce3b895e9b26e7874
+
 [2026-01-03T12:08:34.020Z] Task created by user 6959068ce3b895e9b26e7874
+
 [2026-01-03T12:08:50.424Z] Task created by user 6959068ce3b895e9b26e7874
+
 [2026-01-03T12:09:04.201Z] Task updated: 695906b3e3b895e9b26e7879
+
 [2026-01-03T12:09:07.198Z] Task deleted: 695906b3e3b895e9b26e7879
+
 [2026-01-03T12:09:10.686Z] Task deleted: 695906d2e3b895e9b26e787f
+
 
 
 
