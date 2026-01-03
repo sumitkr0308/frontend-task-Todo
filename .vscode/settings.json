@@ -1,0 +1,6 @@
+{
+  "github.copilot.chat.agent.currentEditorContext.enabled": true,
+  "github.copilot.enable": {
+    "*": false
+  }
+}
